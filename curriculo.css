@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(185, 177, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+#conteudo {
+    background-color: #FFFFFF;
+    width: 1096px;
+    height: 1024px;
+    position: relative;
+}
+
+#div1 {
+    background-color:  #FFFFFF;
+    width: 647px;
+    height: 950px;
+    margin: 61px 55px 61px 71px;
+    position: absolute;
+    left: 0;
+    color: #19304F;
+}
+
+#div2 {
+    width: 323px;
+    height: 1024px;
+    position: absolute;
+    right: 0;
+    color: #FFFFFF;
+    background: #19304F;
+}
+
+#nome {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+figure {
+    display: inline-block;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-left: 11px;
+    margin-bottom: 11px;
+}
+
+img {
+    border-radius: 100px;
+}
+
+#titulo {
+    width: 177px;
+    height: 10px;
+    left: 221px;
+    top: 104px;
+    font-size: 20px;
+    line-height: 18px;
+    margin-top: -20px;
+    margin-left: 11px;
+}
+
+h2 {
+    width: 500px;
+    height: 7px;
+    left: 221px;
+    top: 107px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    margin-top: 70px;
+}
+
+#subtitulo {
+    width: 250px;
+    height: 20px;
+    left: 250px;
+    top: 129px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 7px;
+}
+
+#perfil, #educação, #projetos {
+    width: 52.95px;
+    height: 15px;
+    left: 85px;
+    top: 216px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+p {
+    color: #222222;
+    font-size: 16px;
+}
+
+ul {
+    color: #222222;
+}
+
+.perfil, .educação, .projetos{
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+#educação, #projetos {
+    margin-top: 36px;
+}
+
+#contatos {
+    margin-top: 165px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 23px;
+    left: 800px;
+    top: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.email, .fone, a{
+    text-align: center;
+    margin-left: 85px;
+}
+
+#github {
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+#conhecimentos {
+    margin-top: 70px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 23px;
+    left: 800px;
+    top: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.html, .css, .java, .git {
+    color: #FFFFFF;
+    margin-left: 85px;
+    width: 140px;
+    height: 19px;
+    left: 866px;
+    top: 495px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+
+.css, .java, .git {
+    margin-top: 9px;
+}
+
+.email, .html {
+    margin-top: 11px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px; 
+    margin-left: 275px;
+}
